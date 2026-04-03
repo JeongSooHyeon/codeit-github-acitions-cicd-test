@@ -18,7 +18,7 @@ jobs: # 실행할 작업(job) 정의
           distribution: 'temurin'
 
       - name: 실행 권한 부여
-        run: chmod +x gradles
+        run: chmod +x gradlew
 
       - name: 빌드 및 테스트
         run: ./gradlew clean build
