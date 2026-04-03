@@ -84,7 +84,7 @@ jobs:
 
       # 11) 작업 정의 업데이트 (새 리비전 등록)
       - name: 새로운 작업 정의 등록
-        id: register task definition
+        id: register_task_definition
         run: |
           TASK_DEF_ARN=$(aws ecs register-task-definition \
             --cli-input-json file://task-def.rendered.json \
