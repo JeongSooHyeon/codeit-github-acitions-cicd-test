@@ -9,7 +9,7 @@
       "image": "${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com/codeit-repo:${IMAGE_TAG}",
       "essential": true,
       "cpu": 256,
-      "memory": 512,
+      "memory": 400,
       "portMappings": [
         {
           "containerPort": 8080,
